@@ -97,37 +97,31 @@ font:
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   host:
 
-  # Global font settings used on <body> element.
+   # 全局字体，应用在 body 元素上
   global:
-    # external: true will load this font family from host.
     external: true
-    family: Lato
+    family: Monda
 
-  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
-  # Fallback to `global` font settings.
+  # 标题字体 (h1, h2, h3, h4, h5, h6)
   headings:
     external: true
-    family:
+    family: Roboto Slab
 
-  # Font settings for posts
-  # Fallback to `global` font settings.
+  # 文章字体
   posts:
     external: true
-    family:
+    family: 
 
-  # Font settings for Logo
-  # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
+  # Logo 字体
   logo:
     external: true
-    family:
-    size:
+    family: Lobster Two
+    size: 24
 
-  # Font settings for <code> and code blocks.
+  # 代码字体，应用于 code 以及代码块
   codes:
     external: true
-    family:
-    size:
+    family: PT Mono
 
 
 
@@ -193,8 +187,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
-  #display: always
+  #display: post
+  display: always
   #display: hide
   #display: remove
 
@@ -208,6 +202,9 @@ sidebar:
   # Scroll percent label in b2t button
   scrollpercent: false
 
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: http://os73rgvu2.bkt.clouddn.com/erweima.png
+#alipay: 
 
 # Blog rolls
 links_title: 推荐阅读
@@ -241,15 +238,15 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -451,6 +448,7 @@ busuanzi_count:
 # tencent_mta:
 
 
+
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
 
@@ -509,7 +507,7 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -625,6 +623,7 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
+
 
 
 # Assets

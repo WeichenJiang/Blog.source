@@ -14,7 +14,8 @@
 </div>
 
 <div class="theme-info">
-  {{ __('footer.theme') }} 
-  
+
+  <span class="post-count">全站共{{ totalcount(site) }}字</span>
+
 </div>
 {% endif %}
