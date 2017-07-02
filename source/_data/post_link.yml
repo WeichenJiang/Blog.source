@@ -1,0 +1,1 @@
+tail: <b>原创文章，转载请标明出处：</b><a href="<%= site_url %>" target="_blank"><%= site_title %></a><br/><b>本文链接地址：</b><a href="<%= post_permalink %>" target="_blank"><%= post_title %></a>

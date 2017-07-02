@@ -5,3 +5,5 @@ tags:
   - Git
 categories: Git
 ---
+
+{% post_link tail %}
