@@ -17,7 +17,9 @@ password: password
 
 其实没啥卵用。。。这种加密仅作娱乐使用，反正我的博客没多少人看~
 
+额- -具体步骤详见：
 
+[Hexo文章简单加密访问](http://blog.csdn.net/lancelot_lewis/article/details/53422901)
 
 ![](http://os73rgvu2.bkt.clouddn.com/5fe461b3c77f000888070e566eb3001e.gif)
 
